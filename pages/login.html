@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SinauKoding.</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>Sinau</span>Koding.</a>
+        <nav>
+            <div class="navbar"></div>
+            <a href="/">Home</a>
+            <a href="/categories">Categories</a>
+            <a href="/courses">Courses</a>
+            <form action="/" method="GET">
+                <input type="text" name="keyword" placeholder="Cari disini ...">
+                <button type="submit">Cari</button>
+            </form>
+            <a class="active" href="/login">Login</a>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <section class="login">
+            <div class="center-text">
+                <h5>LOGIN</h5>
+            </div>
+            <div class="login-content">
+                <h2>Login</h2>
+                <form action="/login" method="POST">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="Username" >
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="Password" name="password">
+                    <input type="submit" value="Login">
+                </form>
+                <p>Tidak punya akun ? <a href="/daftar">Daftar</p></a>
+                <div class="note">
+                    <p>Note :</p>
+                    <p>Username : rafifmmr</p>
+                    <p>Password : 1121102011</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

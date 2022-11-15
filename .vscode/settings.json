@@ -1,0 +1,34 @@
+// <-- Setting VSCode --> //
+{
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 0,
+  "editor.letterSpacing": 0.2,
+  "editor.fontWeight": "400",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 0,
+  "editor.cursorBlinking": "blink",
+  "editor.smoothScrolling": true,
+  "window.zoomLevel": -1,
+  "terminal.integrated.fontSize": 14,
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "vscode-icons",
+  "indentRainbow.colorOnWhiteSpaceOnly": true,
+  "terminal.integrated.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "liveServer.settings.port": 5502,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "vscode-pets.theme": "forest",
+  "vscode-pets.position": "explorer"
+  
+}
