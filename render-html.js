@@ -149,10 +149,10 @@ var server = http.createServer(function(request,response){
             '</tr>'+
             '<tr>'+
                 '<th>'+
-                    'Telephone '+
+                    'No. Telepon '+
                 '</th>'+            
                 '<td>'+
-                    ': '+formData['konfirmasi password']+
+                    ': '+formData['telepon']+
                 '</td>'+
     
             '</tr>'+
