@@ -31,9 +31,9 @@ var server = http.createServer(function(request,response){
                 } else {
                     response.writeHead(200, {"Content-Type": "text/html"});
                     response.write(data)
-                    response.write("<h2 style='text-align: center;'>Pencarian</h2>");
-                    response.write("<p style='text-align: center;'>Anda Mencari : <b>" + keyword + "</b> </p>");
-                    response.write("<h3 style='text-align: center;'><b></b>Tidak ada Hasil ! Maaf Website ini masih dalam tahap pengembangan</b></h3>");
+                    response.write('<div class="center-text">' + '<h5>PENCARIAN</h5>' + '</div>');
+                    response.write('<p style="text-align: center;">Anda Mencari : <b>' + keyword + '</b> </p>');
+                    response.write('<h3 style="text-align: center";><b></b>Tidak ada Hasil ! Maaf Website ini masih dalam tahap pengembangan</b></h3>');
                     return response.end()
                 }
             });
